@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #808080;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    margin-right: 8%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section.cities {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.city {
+    border: 1px solid #ccc;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.762);
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+    max-height: 450px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.city h2 {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.city img {
+    max-height: 53%;
+}
+
+.city p {
+    font-size: 16px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+#btn1 {
+    background-color: #6c3483;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn2 {
+    background-color: #cb4335;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#btn3 {
+    background-color: #2874a6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
